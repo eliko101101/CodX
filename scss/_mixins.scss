@@ -1,0 +1,23 @@
+@mixin text($color,$wieght,$size,$height){
+    color: $color;
+    font-weight: $wieght;
+    font-size: $size;
+    line-height: $height;
+    font-family: 'Outfit', sans-serif;
+}
+@mixin button{
+    background: #2F2F2F;
+    @include text(white,700,15px,16px);
+    border: none;
+    padding: 12px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+        transition: 0.5s;
+        border-radius: 30px;
+    }
+}
+@mixin title {
+    @include text(#2f2f2f,400,64px,64px);
+    text-align: center;
+}
