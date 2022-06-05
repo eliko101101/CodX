@@ -423,6 +423,9 @@
         @media screen and (max-width:1200px){
             padding: 4% 5%;
         }
+        @media screen and (max-width:600px){
+            padding: 10% 5%;
+        }
         &__title{
             @include text(#2f2f2f,400,63px,64px);
             @media screen and(max-width:768px) {
@@ -633,7 +636,7 @@
                     @media screen and(max-width:569px) {
                         position: absolute;
                         top: 6px;
-                        right: -30px;
+                        right: -37px;
                     }
                     
                 }
@@ -647,7 +650,7 @@
                     line-height: 17px;
                 }
                 @media screen and(max-width:569px) {
-                    width: 90%;
+                    width: 87%;
                     position: relative;
                     margin-top: 45px;
                 }
@@ -765,7 +768,7 @@
             }
         }
         .form{
-            legend{
+            p{
                 @include text(#2f2f2f,400,18px,26px);
                 padding: 16px 0;
                 @media screen and (max-width:425px) {

@@ -690,6 +690,11 @@
     padding: 4% 5%;
   }
 }
+@media screen and (max-width: 600px) {
+  .main .join {
+    padding: 10% 5%;
+  }
+}
 .main .join__title {
   color: #2f2f2f;
   font-weight: 400;
@@ -1082,7 +1087,7 @@
   .main .questions-accordion .accordion::after {
     position: absolute;
     top: 6px;
-    right: -30px;
+    right: -37px;
   }
 }
 @media screen and (max-width: 820px) {
@@ -1100,7 +1105,7 @@
 }
 @media screen and (max-width: 569px) {
   .main .questions-accordion .accordion {
-    width: 90%;
+    width: 87%;
     position: relative;
     margin-top: 45px;
   }
@@ -1302,7 +1307,7 @@
     line-height: 25px;
   }
 }
-.footer--first .contact .form legend {
+.footer--first .contact .form p {
   color: #2f2f2f;
   font-weight: 400;
   font-size: 18px;
@@ -1311,7 +1316,7 @@
   padding: 16px 0;
 }
 @media screen and (max-width: 425px) {
-  .footer--first .contact .form legend {
+  .footer--first .contact .form p {
     font-size: 15px;
     line-height: 20px;
   }

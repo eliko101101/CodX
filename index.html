@@ -1,272 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <title>CodX</title>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="slick/slick.css" rel="stylesheet" type="text/css">
+	<link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+	<title>CodX</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-menu">
-            <img src="./img/logo.png" alt="" class="header__logo">
-                <div class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-list__item"><a href="#aboutUs" class="nav-list__link">About us</a></li>
-                        <li class="nav-list__item"><a href="#NFT" class="nav-list__link">NFTs</a></li>
-                        <li class="nav-list__item"><a href="#Contact" class="nav-list__link">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="social">
-                    <a href="" class="social-link"><img src="./img/twitter.svg" alt=""></a>
-                    <a href="" class="social-link"><img src="./img/inst.svg" alt=""></a>
-                    <a href="" class="social-link"><img src="./img/fb.svg" alt=""></a>
-                </div>
-                <button class="header-menu__btn"><a href="">View on OpenSea</a></button>
-        </div>
-        <div class="intro">
-            <div class="intro-desc">
-                <p class="intro-desc__label">EXTRAORDINARY NFTs</p>
-                <h1 class="intro-desc__title">Change your<br>
-                    Digital Experience</h1>
-                <p class="intro-desc__subtitle">Suspendisse sem neque, auctor a elementum ut,<br>varius vel leo. Donec diam arcu, porta et magna at</p>
-            </div>
-            <div class="intro-photo"><img src="./img/header-about.png" alt=""></div>
-        </div>
-    </header>
-    <main class="main">
-        <section class="slider">
-            <img src="./img/slider/IMAGE (1).png" alt="">
-            <img src="./img/slider/IMAGE (2).png" alt="">
-            <img src="./img/slider/IMAGE (3).png" alt="">
-            <img src="./img/slider/IMAGE (4).png" alt="">
-            <img src="./img/slider/IMAGE (5).png" alt="">
-            <img src="./img/slider/IMAGE (6).png" alt="">
-            <img src="./img/slider/IMAGE (7).png" alt="">
-            <img src="./img/slider/IMAGE (8).png" alt="">
-            <img src="./img/slider/IMAGE (9).png" alt="">
-            <img src="./img/slider/IMAGE (5).png" alt="">
-            
-        </section>
-        <section class="workers" id="aboutUs">
-            <h2 class="workers__title">Hey there, we are</h2>
-            <p class="workers__subtitle">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
-            <div class="tab">
-                <button class="tablinks" onclick="openWorker(event, 'Jack')">Jack</button>
-                <button class="tablinks" onclick="openWorker(event, 'Suni')">Suni</button>
-                <button class="tablinks" onclick="openWorker(event, 'Colin')">Colin</button>
-            </div>
-            <div class="tabcontent" id="Jack">
-                <div class="tabcontent-photo">
-                    <img src="./img/Jack.png" alt="">
-                </div>
-                <div class="tabcontent-desc">
-                    <p class="tabcontent-desc__label">Digital Artist</p>
-                    <p class="tabcontent-desc__title">Pellentesque blandit<br>
-                    in quam rhoncus</p>
-                    <p class="tabcontent-desc__subtitle">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
-                </div>
-            </div>
-            <div class="tabcontent" id="Suni">
-                <div class="tabcontent-photo">
-                    <img src="./img/suni.png" alt="">
-                </div>
-                <div class="tabcontent-desc">
-                    <p class="tabcontent-desc__label">Motion Designer</p>
-                    <p class="tabcontent-desc__title">Pellentesque blandit<br>
-                    in quam rhoncus</p>
-                    <p class="tabcontent-desc__subtitle">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
-                </div>
-            </div>
-            <div class="tabcontent" id="Colin">
-                <div class="tabcontent-photo">
-                    <img src="./img/Colin.png" alt="">
-                </div>
-                <div class="tabcontent-desc">
-                    <p class="tabcontent-desc__label">Photographer</p>
-                    <p class="tabcontent-desc__title">Pellentesque blandit<br>
-                    in quam rhoncus</p>
-                    <p class="tabcontent-desc__subtitle">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
-                </div>
-            </div>
-        </section>
-        <section class="ourWork">
-            <div class="ourWork-photo"><img src="./img/ourWork.png" alt=""></div>
-            <div class="ourWork-text">
-                <p class="ourWork-text__subtitle">our work</p>
-                <p class="ourWork-text__title">“Um… what’s going on here?”</p>
-                <p class="ourWork-text__desc">Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque. Vestibulum consectetur vestibulum tristique. Sed purus neque, maximus fermentum bibendum et, porta in sapien.</p>
-                <div class="ourWork-text__btn"><a href="">About Codx</a> </div>
-            </div>
-        </section>
-        <section class="direction">
-            <div class="direction-items">
-                <button class="tablink_1 first" onclick="openDirection(event, 'MG')">01</button>
-                <p class="direction-items__name">Motion Graphic</p>
-                <p class="direction-items__desc">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
-                <button class="tablink_1 second" onclick="openDirection(event, 'DI')">02</button>
-                <p class="direction-items__name">Digital Illustration</p>
-                <p class="direction-items__desc">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
-                <button class="tablink_1 third" onclick="openDirection(event, 'PF')">03</button>
-                <p class="direction-items__name">Photography</p>
-                <p class="direction-items__desc">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
-            </div>
-            <div class="direction-photo tabcontent_1" id="MG"><img src="./img/MG.png" alt=""></div>
-            <div class="direction-photo tabcontent_1" id="DI"><img src="./img/DI.png" alt=""></div>
-            <div class="direction-photo tabcontent_1" id="PF"><img src="./img/PF.png" alt=""></div>
-        </section>
-        <section class="join">
-            <h2 class="join__title">Join US and Discover<br> our most precious NFT</h2>
-            <p class="join__subtitle">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
-            <button class="join__btn">View on OpenSea</button>
-        </section>
-        <section class="collections" id="NFT">
-            <h2 class="collections__title">Browse by Collections</h2>
-            <div class="collections-items">
-                <div class="collections-item">
-                    <div class="collections-item__photo"></div>
-                    <div class="collections-item__title"><a href="">Collectibles</a></div>
-                </div>
-                <div class="collections-item">
-                    <div class="collections-item__photo"></div>
-                    <div class="collections-item__title"><a href="">Art</a></div>
-                </div>
-                <div class="collections-item">
-                    <div class="collections-item__photo"></div>
-                    <div class="collections-item__title"><a href="">Photography</a></div>
-                </div>
-            </div>
-            <button class="collections__btn">View all</button>
-        </section>
-        <section class="top">
-            <h2 class="top__title">Top NFT</h2>
-                <div class="top-examples">
-                    <div class="top-item">
-                        <div class="item-photo"><img src="./img/IMAGEwhite_bear.png" alt=""></div>
-                        <div class="item-desc">
-                            <p class="item-desc__name">White Bear</p>
-                            <p class="item-desc__code">#54385</p>
-                            <img src="./img/Frame.svg" alt="">
-                            <img src="./img/Framelock.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="top-item">
-                        <div class="item-photo"><img src="./img/IMAGEhappy_luca.png" alt=""></div>
-                        <div class="item-desc">
-                            <p class="item-desc__name">Happy Luca</p>
-                            <p class="item-desc__code">#54395</p>
-                            <img src="./img/Frame.svg" alt="">
-                            <img src="./img/Framelock.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="top-item">
-                        <div class="item-photo"><img src="./img/IMAGEdodo.png" alt=""></div>
-                        <div class="item-desc">
-                            <p class="item-desc__name">Dodo</p>
-                            <p class="item-desc__code">#54376</p>
-                            <img src="./img/Frame.svg" alt="">
-                            <img src="./img/Framelock.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="top-item">
-                        <div class="item-photo"><img src="./img/IMAGEnano.png" alt=""></div>
-                        <div class="item-desc">
-                            <p class="item-desc__name">Nano Nano</p>
-                            <p class="item-desc__code">#54348</p>
-                            <img src="./img/Frame.svg" alt="">
-                            <img src="./img/Framelock.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="top-item">
-                        <div class="item-photo"><img src="./img/IMAGEzombie.png" alt=""></div>
-                        <div class="item-desc">
-                            <p class="item-desc__name">Zombie</p>
-                            <p class="item-desc__code">#54337</p>
-                            <img src="./img/Frame.svg" alt="">
-                            <img src="./img/Framelock.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="top-item">
-                        <div class="item-photo"><img src="./img/IMAGEpink_devil.png" alt=""></div>
-                        <div class="item-desc">
-                            <p class="item-desc__name">Pink Devil</p>
-                            <p class="item-desc__code">#54392</p>
-                            <img src="./img/Frame.svg" alt="">
-                            <img src="./img/Framelock.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <button class="top-btn">View all<button>
-        </section>
-        <section class="questions">
-            <h2 class="questions__title">FAQ</h2>
-            <div class="questions-accordion">
-                <button class="accordion">Donec posuere massa nec arcu scelerisque, blandit mattis justo blandit</button>
-                <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <button class="accordion">Quisque at justo semper, faucibus eros sit amet, scelerisque lorem.</button>
-                <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <button class="accordion">Nulla eget justo at eros varius consequat.</button>
-                <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <button class="accordion">Vivamus non nibh quis massa laoreet semper et eu quam</button>
-                <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <button class="accordion">Morbi quis nisi tempus, mollis turpis ut, mollis massa.</button>
-                <div class="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer--first" id="Contact">
-        <div class="media">
-            <img src="./img/logo.png" alt="" class="media__logo">
-            <p class="media-social">Join the community</p>
-            <a href="" class="media-social__link"><img src="./img/twitter.svg" alt=""></a>
-            <a href="" class="media-social__link"><img src="./img/inst.svg" alt=""></a>
-            <a href="" class="media-social__link"><img src="./img/fb.svg" alt=""></a>
-        </div>
-        <div class="site">
-            <h3 class="site__title">Site</h3>
-            <a href="#aboutUs">About us</a>
-            <a href="#NFT">NFTs</a>
-            <a href="#Contact">Contact</a>
-        </div>
-        <div class="utility">
-            <h3 class="utility__title">Utility</h3>
-            <a href="">Style guide</a>
-            <a href="">Lincensing</a>
-            <a href="">404</a>
-        </div>
-        <div class="contact">
-            <h2 class="contact__title">Stay in the loop </h2>
-                <form action="" class="form">
-                    <legend>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</legend>
-                    <input type="email" name="" id="" placeholder="Your email address">
-                    <input type="submit" value="Sign up">
-                </form>
-           
-        </div>
-    </footer>
-    <footer class="footer--second">
-        <p class="copyright">© 2022 All rights reserved.</p>
-        <p class="created">Created By<span>Udesly</span>Powered By<span>Webflow</span></p>
-    </footer>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="./js/slider.js"></script>
-    <script src="./js/main.js"></script>
+	<header class="header">
+		<div class="header-menu">
+			<img alt="" class="header__logo" src="./img/logo.png">
+			<div class="nav">
+				<ul class="nav-list">
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="#aboutUs">About us</a>
+					</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="#NFT">NFTs</a>
+					</li>
+					<li class="nav-list__item">
+						<a class="nav-list__link" href="#Contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<div class="social">
+				<a class="social-link" href=""><img alt="" src="./img/twitter.svg"></a> <a class="social-link" href=""><img alt="" src="./img/inst.svg"></a> <a class="social-link" href=""><img alt="" src="./img/fb.svg"></a>
+			</div><button class="header-menu__btn"><a href="#">View on OpenSea</a></button>
+		</div>
+		<div class="intro">
+			<div class="intro-desc">
+				<p class="intro-desc__label">EXTRAORDINARY NFTs</p>
+				<h1 class="intro-desc__title">Change your<br>
+				Digital Experience</h1>
+				<p class="intro-desc__subtitle">Suspendisse sem neque, auctor a elementum ut,<br>
+				varius vel leo. Donec diam arcu, porta et magna at</p>
+			</div>
+			<div class="intro-photo"><img alt="" src="./img/header-about.png"></div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="slider">
+			<img alt="" src="./img/slider/IMAGE%20(1).png"> <img alt="" src="./img/slider/IMAGE%20(2).png"> <img alt="" src="./img/slider/IMAGE%20(3).png"> <img alt="" src="./img/slider/IMAGE%20(4).png"> <img alt="" src="./img/slider/IMAGE%20(5).png"> <img alt="" src="./img/slider/IMAGE%20(6).png"> <img alt="" src="./img/slider/IMAGE%20(7).png"> <img alt="" src="./img/slider/IMAGE%20(8).png"> <img alt="" src="./img/slider/IMAGE%20(9).png"> <img alt="" src="./img/slider/IMAGE%20(5).png">
+		</section>
+		<section class="workers" id="aboutUs">
+			<h2 class="workers__title">Hey there, we are</h2>
+			<p class="workers__subtitle">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
+			<div class="tab">
+				<button class="tablinks" onclick="openWorker(event, 'Jack')">Jack</button> <button class="tablinks" onclick="openWorker(event, 'Suni')">Suni</button> <button class="tablinks" onclick="openWorker(event, 'Colin')">Colin</button>
+			</div>
+			<div class="tabcontent" id="Jack">
+				<div class="tabcontent-photo"><img alt="" src="./img/Jack.png"></div>
+				<div class="tabcontent-desc">
+					<p class="tabcontent-desc__label">Digital Artist</p>
+					<p class="tabcontent-desc__title">Pellentesque blandit<br>
+					in quam rhoncus</p>
+					<p class="tabcontent-desc__subtitle">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+				</div>
+			</div>
+			<div class="tabcontent" id="Suni">
+				<div class="tabcontent-photo"><img alt="" src="./img/suni.png"></div>
+				<div class="tabcontent-desc">
+					<p class="tabcontent-desc__label">Motion Designer</p>
+					<p class="tabcontent-desc__title">Pellentesque blandit<br>
+					in quam rhoncus</p>
+					<p class="tabcontent-desc__subtitle">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+				</div>
+			</div>
+			<div class="tabcontent" id="Colin">
+				<div class="tabcontent-photo"><img alt="" src="./img/Colin.png"></div>
+				<div class="tabcontent-desc">
+					<p class="tabcontent-desc__label">Photographer</p>
+					<p class="tabcontent-desc__title">Pellentesque blandit<br>
+					in quam rhoncus</p>
+					<p class="tabcontent-desc__subtitle">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+				</div>
+			</div>
+		</section>
+		<section class="ourWork">
+			<div class="ourWork-photo"><img alt="" src="./img/ourWork.png"></div>
+			<div class="ourWork-text">
+				<p class="ourWork-text__subtitle">our work</p>
+				<p class="ourWork-text__title">“Um… what’s going on here?”</p>
+				<p class="ourWork-text__desc">Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque. Vestibulum consectetur vestibulum tristique. Sed purus neque, maximus fermentum bibendum et, porta in sapien.</p>
+				<div class="ourWork-text__btn">
+					<a href="">About Codx</a>
+				</div>
+			</div>
+		</section>
+		<section class="direction">
+			<div class="direction-items">
+				<button class="tablink_1 first" onclick="openDirection(event, 'MG')">01</button>
+				<p class="direction-items__name">Motion Graphic</p>
+				<p class="direction-items__desc">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p><button class="tablink_1 second" onclick="openDirection(event, 'DI')">02</button>
+				<p class="direction-items__name">Digital Illustration</p>
+				<p class="direction-items__desc">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p><button class="tablink_1 third" onclick="openDirection(event, 'PF')">03</button>
+				<p class="direction-items__name">Photography</p>
+				<p class="direction-items__desc">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p>
+			</div>
+			<div class="direction-photo tabcontent_1" id="MG"><img alt="" src="./img/MG.png"></div>
+			<div class="direction-photo tabcontent_1" id="DI"><img alt="" src="./img/DI.png"></div>
+			<div class="direction-photo tabcontent_1" id="PF"><img alt="" src="./img/PF.png"></div>
+		</section>
+		<section class="join">
+			<h2 class="join__title">Join US and Discover<br>
+			our most precious NFT</h2>
+			<p class="join__subtitle">Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p><button class="join__btn">View on OpenSea</button>
+		</section>
+		<section class="collections" id="NFT">
+			<h2 class="collections__title">Browse by Collections</h2>
+			<div class="collections-items">
+				<div class="collections-item">
+					<div class="collections-item__photo"></div>
+					<div class="collections-item__title">
+						<a href="">Collectibles</a>
+					</div>
+				</div>
+				<div class="collections-item">
+					<div class="collections-item__photo"></div>
+					<div class="collections-item__title">
+						<a href="">Art</a>
+					</div>
+				</div>
+				<div class="collections-item">
+					<div class="collections-item__photo"></div>
+					<div class="collections-item__title">
+						<a href="">Photography</a>
+					</div>
+				</div>
+			</div><button class="collections__btn">View all</button>
+		</section>
+		<section class="top">
+			<h2 class="top__title">Top NFT</h2>
+			<div class="top-examples">
+				<div class="top-item">
+					<div class="item-photo"><img alt="" src="./img/IMAGEwhite_bear.png"></div>
+					<div class="item-desc">
+					<p class="item-desc__name">White Bear</p>
+					<p class="item-desc__code">#54385</p><img alt="" src="./img/Frame.svg"> <img alt="" src="./img/Framelock.svg"></div>
+				</div>
+				<div class="top-item">
+					<div class="item-photo"><img alt="" src="./img/IMAGEhappy_luca.png"></div>
+					<div class="item-desc">
+					<p class="item-desc__name">Happy Luca</p>
+					<p class="item-desc__code">#54395</p><img alt="" src="./img/Frame.svg"> <img alt="" src="./img/Framelock.svg"></div>
+				</div>
+				<div class="top-item">
+					<div class="item-photo"><img alt="" src="./img/IMAGEdodo.png"></div>
+					<div class="item-desc">
+					<p class="item-desc__name">Dodo</p>
+					<p class="item-desc__code">#54376</p><img alt="" src="./img/Frame.svg"> <img alt="" src="./img/Framelock.svg"></div>
+				</div>
+				<div class="top-item">
+					<div class="item-photo"><img alt="" src="./img/IMAGEnano.png"></div>
+					<div class="item-desc">
+					<p class="item-desc__name">Nano Nano</p>
+					<p class="item-desc__code">#54348</p><img alt="" src="./img/Frame.svg"> <img alt="" src="./img/Framelock.svg"></div>
+				</div>
+				<div class="top-item">
+					<div class="item-photo"><img alt="" src="./img/IMAGEzombie.png"></div>
+					<div class="item-desc">
+					<p class="item-desc__name">Zombie</p>
+					<p class="item-desc__code">#54337</p><img alt="" src="./img/Frame.svg"> <img alt="" src="./img/Framelock.svg"></div>
+				</div>
+				<div class="top-item">
+					<div class="item-photo"><img alt="" src="./img/IMAGEpink_devil.png"></div>
+					<div class="item-desc">
+					<p class="item-desc__name">Pink Devil</p>
+					<p class="item-desc__code">#54392</p><img alt="" src="./img/Frame.svg"> <img alt="" src="./img/Framelock.svg"></div>
+				</div>
+			</div><button class="top-btn">View all</button>
+		</section>
+		<section class="questions">
+			<h2 class="questions__title">FAQ</h2>
+			<div class="questions-accordion">
+				<button class="accordion">Donec posuere massa nec arcu scelerisque, blandit mattis justo blandit</button>
+				<div class="panel">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div><button class="accordion">Quisque at justo semper, faucibus eros sit amet, scelerisque lorem.</button>
+				<div class="panel">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div><button class="accordion">Nulla eget justo at eros varius consequat.</button>
+				<div class="panel">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div><button class="accordion">Vivamus non nibh quis massa laoreet semper et eu quam</button>
+				<div class="panel">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div><button class="accordion">Morbi quis nisi tempus, mollis turpis ut, mollis massa.</button>
+				<div class="panel">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer--first" id="Contact">
+		<div class="media">
+			<img alt="" class="media__logo" src="./img/logo.png">
+			<p class="media-social">Join the community</p><a class="media-social__link" href=""><img alt="" src="./img/twitter.svg"></a> <a class="media-social__link" href=""><img alt="" src="./img/inst.svg"></a> <a class="media-social__link" href=""><img alt="" src="./img/fb.svg"></a>
+		</div>
+		<div class="site">
+			<h3 class="site__title">Site</h3><a href="#aboutUs">About us</a> <a href="#NFT">NFTs</a> <a href="#Contact">Contact</a>
+		</div>
+		<div class="utility">
+			<h3 class="utility__title">Utility</h3><a href="">Style guide</a> <a href="">Lincensing</a> <a href="">404</a>
+		</div>
+		<div class="contact">
+			<h2 class="contact__title">Stay in the loop</h2>
+			<form class="form">
+				<p>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam arcu, porta et magna at</p><input placeholder="Your email address" type="email"> <input type="submit" value="Sign up">
+			</form>
+		</div>
+	</footer>
+	<footer class="footer--second">
+		<p class="copyright">© 2022 All rights reserved.</p>
+		<p class="created">Created By<span>Udesly</span>Powered By<span>Webflow</span></p>
+	</footer>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js">
+	</script> 
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js">
+	</script> 
+	<script src="slick/slick.min.js" type="text/javascript">
+	</script> 
+	<script src="./js/slider.js">
+	</script> 
+	<script src="./js/main.js">
+	</script>
 </body>
 </html>
