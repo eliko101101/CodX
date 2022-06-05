@@ -16,8 +16,21 @@
         transition: 0.5s;
         border-radius: 30px;
     }
+    @media screen and(max-width:768px) {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
 }
 @mixin title {
     @include text(#2f2f2f,400,64px,64px);
     text-align: center;
+    @media screen and(max-width:768px){
+        font-size: 55px;
+        line-height: 55px;
+    }
+    @media screen and(max-width:425px) {
+        font-size: 40px;
+        line-height: 40px;
+    } 
+    
 }
